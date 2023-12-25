@@ -16,6 +16,9 @@ class LoginController extends Controller
     // public function index(){
     //     return view('ashboard.dashboard');
     // }
+    public function index(){
+        return view('auth.login');
+    }
     public function login(){
         return view('auth.login');
     }
